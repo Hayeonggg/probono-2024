@@ -11,7 +11,7 @@ from googletrans import Translator
 translator = Translator()
 
 # 구글 클라우드 인증 정보 설정
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'probono-2024-ee4bdd71fa06.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'your token.json'
 
 client = vision.ImageAnnotatorClient()
 
