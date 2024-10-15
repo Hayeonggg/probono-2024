@@ -5,7 +5,7 @@ import time
 
 # 파일 경로 설정
 #file_name = 'image/0.png'
-for i in range(0,23):  # 0부터 21까지 반복
+for i in range(0,23):  # 0부터 22까지 반복
     file_name = f'image/{i}.png'
 
 
