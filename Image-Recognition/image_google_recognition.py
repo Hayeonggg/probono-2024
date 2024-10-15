@@ -12,7 +12,7 @@ def label_img(file_name):
     translator = Translator()
 
     # Google Vision API 사용을 위한 설정
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'probono-2024-ee4bdd71fa06.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'your token.json'
 
     # Vision API 클라이언트 생성
     client = vision.ImageAnnotatorClient()
