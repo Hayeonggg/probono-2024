@@ -8,7 +8,7 @@ from google.cloud.vision_v1 import types
 from googletrans import Translator
 translator = Translator()
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'probono-2024-ee4bdd71fa06.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'your token.json'
 
 client = vision.ImageAnnotatorClient()
 file_name = os.path.abspath(r'.\image\0.png')
